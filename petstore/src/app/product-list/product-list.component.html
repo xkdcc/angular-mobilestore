@@ -14,6 +14,7 @@
     </button>
 
     <!-- to display ProductAlertsComponent as a child of ProductListComponent -->
-    <app-product-alerts [product]="product">
+    <!-- bind <app-product-alerts> to the onNotify() method of the product list component. -->
+    <app-product-alerts [product]="product" (notify)="onNotify()">
     </app-product-alerts>
 </div>
