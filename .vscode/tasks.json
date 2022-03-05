@@ -1,0 +1,38 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "petstore/",
+			"isBackground": true,
+			"problemMatcher": {
+				"owner": "typescript",
+				"pattern": "$tsc",
+				"background": {
+				  "activeOnStart": true,
+				  "beginsPattern": {
+					"regexp": "(.*?)"
+				  },
+				  "endsPattern": {
+					"regexp": "bundle generation complete"
+				  }
+				}
+			  },
+			"label": "npm: start - petstore",
+			"detail": "ng serve",
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "petstore/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build - petstore",
+			"detail": "ng build"
+		}
+	]
+}
