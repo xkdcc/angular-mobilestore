@@ -4,7 +4,7 @@
 		{
 			"type": "npm",
 			"script": "start",
-			"path": "petstore/",
+			"path": "mobilestore/",
 			"isBackground": true,
 			"problemMatcher": {
 				"owner": "typescript",
@@ -19,19 +19,19 @@
 				  }
 				}
 			  },
-			"label": "npm: start - petstore",
+			"label": "npm: start - mobilestore",
 			"detail": "ng serve",
 		},
 		{
 			"type": "npm",
 			"script": "build",
-			"path": "petstore/",
+			"path": "mobilestore/",
 			"group": {
 				"kind": "build",
 				"isDefault": true
 			},
 			"problemMatcher": [],
-			"label": "npm: build - petstore",
+			"label": "npm: build - mobilestore",
 			"detail": "ng build"
 		}
 	]

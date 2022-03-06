@@ -9,15 +9,15 @@
             "request": "launch",
             "name": "Direct Debug",
             "url": "http://localhost:4300",
-            "webRoot": "${workspaceFolder}/petstore",
+            "webRoot": "${workspaceFolder}/mobilestore",
         },
         {
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Debug - Launch Chrome against localhost",
             "url": "http://localhost:4300",
-            "preLaunchTask": "npm: start - petstore",
-            "webRoot": "${workspaceFolder}/petstore",
+            "preLaunchTask": "npm: start - mobilestore",
+            "webRoot": "${workspaceFolder}/mobilestore",
         }
     ]
 }
